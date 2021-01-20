@@ -18,12 +18,12 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: '👾AR15BOT👾',
-    instagram: 'https://instagram.com/_sadboy.ig',
-    nomer: 'wa.me/6285722553839',
+    A187: '👾AHMAD👾',
+    instagram: 'https://www.instagram.com/p/CKDA9Z-JBqp/?igshid=1bspng0esk0tf',
+    nomer: 'wa.me/60195042951',
     aktif: '24 JAM',
-    youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg',
-    whatsapp: 'https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs',
+    youtube: 'https://youtu.be/MU6PvvteBmE',
+    whatsapp: 'https://chat.whatsapp.com/LQpF50U7emrBd4G6njRjbT',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
@@ -751,7 +751,7 @@ case 'filmanime':
                })
            break
           case 'creator':
-            client.sendContact(from, '6285722553839@c.us')
+            client.sendContact(from, '60195042951@c.us')
             break
       case 'tts':
             if (args.length === 1) return client.reply(from, 'Kirim perintah *!tts [id, en, jp, ar] [teks]*, contoh *!tts id halo semua*')
